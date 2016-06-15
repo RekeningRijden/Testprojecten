@@ -12,7 +12,6 @@ import java.util.concurrent.TimeoutException;
 @Stateless
 public class ListenerRabbitmq {
     private final static String QUEUE_NAME = "belgie";
-    private final static String EXCHANGE_NAME = "exchange_routing";
     private final static String ROUTING_KEY = "BE";
 
     public ListenerRabbitmq() throws IOException, TimeoutException {
